@@ -1,6 +1,6 @@
 # The-Road-to-Success
 
-Code and materials to reprocude the findings in the paper -The Road to Success: Assessing the Fate of Linguistic Innovations in Online Communities- by [Marco Del Tredici](https://sites.google.com/site/marcodeltredici/) and [Raquel Fernández](https://staff.fnwi.uva.nl/r.fernandezrovira/), accepter to [COLING 2018](http://coling2018.org/).
+Code and materials to reprocude the findings in the paper _The Road to Success: Assessing the Fate of Linguistic Innovations in Online Communities_ by [Marco Del Tredici](https://sites.google.com/site/marcodeltredici/) and [Raquel Fernández](https://staff.fnwi.uva.nl/r.fernandezrovira/), accepter to [COLING 2018](http://coling2018.org/).
 
 This directory includes two sub-folders:
 
