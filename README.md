@@ -1,6 +1,6 @@
 # The-Road-to-Success
 
-Code and materials to reprocude the findings in the paper "The Road to Success: Assessing the Fate of Linguistic Innovations in Online Communities" by Marco Del Tredici and Raquel Fernández, accepter to COLING 2018.
+Code and materials to reprocude the findings in the paper -The Road to Success: Assessing the Fate of Linguistic Innovations in Online Communities- by [Marco Del Tredici](https://sites.google.com/site/marcodeltredici/) and [Raquel Fernández](https://staff.fnwi.uva.nl/r.fernandezrovira/), accepter to [COLING 2018](http://coling2018.org/).
 
 This directory includes two sub-folders:
 
@@ -11,9 +11,16 @@ This directory includes two sub-folders:
 ## Requirements
 
 * Python 3
-* networkx
+* `networkx'
 
-## Cite
+## Citation
 
 Please cite our paper if you use this code:
-
+```
+@inproceedings{deltredici-fernandez:2018:coling,
+	Author = {Marco Del Tredici and Raquel Fern\'andez},
+	Booktitle = {Proceedings of the 27th International Conference on Computational Linguistics (COLING 2018)},
+	Title = {{The Road to Success: Assessing the Fate of Linguistic Innovations in Online Communities}},
+	Year = {2018}
+  }
+``` 
