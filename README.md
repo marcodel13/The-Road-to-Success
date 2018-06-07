@@ -1,6 +1,6 @@
 # The-Road-to-Success
 
-Code for the Coling Paper "The Road to Success: Assessing the Fate of Linguistic Innovations in Online Communities"
+Code and materials to reprocude the findings in the paper "The Road to Success: Assessing the Fate of Linguistic Innovations in Online Communities" by Marco Del Tredici and Raquel Fernández, accepter to COLING 2018.
 
 This directory includes two sub-folders:
 
