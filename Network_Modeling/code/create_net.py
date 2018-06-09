@@ -12,6 +12,7 @@ from utils.define_time_bins import DefineTimestamps
 from utils.tokenize_text import ReturnTokenizedText
 from utils.retrieve_weak_ties import RetrieveWeakTies
 from utils.centrality_measures import ComputeCentralityMeasures
+from utils.plot_net import PlotNet
 
 
 
@@ -21,11 +22,11 @@ def Parse_args():
 
     parser = argparse.ArgumentParser()
     parser.add_argument('-data_path', type = str, help = "Specify data path")
-    parser.add_argument('-target_word', type = str, help = "Specify target word")
-    parser.add_argument('-subreddit', type = str, help = "Specify subreddit name") # temporary
+    parser.add_argument('-subreddit', type = str, help = "Specify subreddit name")
     parser.add_argument('-time_span', type = str, help = "[month|week]", default='month')
     parser.add_argument('-centrality', type = str, help = "Centrality measure. [degree|betweenness|closeness|eigenvector]", default='none')
     parser.add_argument('-min_number_of_users', type=int, help="min number of users for a time bin to be considered", default='200')
+    parser.add_argument('-plot_net', type = bool, help = "plot the net for each month", default=False)
     return parser.parse_args()
 
 
@@ -151,6 +152,9 @@ def Main(args, list_of_time_bins):
                     str(max_strenght_users_that_used_the_target_word)))
         time_bin_list.append("\n********************")
         results_lists.append(time_bin_list)
+
+        if args.plot_net:
+            PlotNet(net, timestamp, list_authors_and_ties_strenght, args.subreddit)
 
     def Check_with_innovations_file(dic):
         with open('../../Innovations_Detection/results/' + args.subreddit + '/' + args.subreddit + '_all_forms_simple_spread.txt') as diss_file:

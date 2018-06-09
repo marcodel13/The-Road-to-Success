@@ -5,7 +5,6 @@ import numpy as np
 import argparse
 from scipy import stats
 import os
-from sklearn import metrics
 import pandas as pd
 
 from utils.define_time_bins import DefineTimestamps
