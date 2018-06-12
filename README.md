@@ -8,7 +8,7 @@ This directory includes three sub-folders:
 
 - Network_Modeling: includes code for creating time-dependent graphs representing the social scturcture of the community and to compute the tie-strenght of the edges connecting users.
 
-- Plots: includes (i) the general probability mass distribution of tie strengths (red) and the probability distribution for innovators (blue) for each subreddit; (ii) an example of a network graph taken from our dataset.
+- Plots: includes (i) the general probability mass distribution of tie strengths and the probability distribution for innovators for each subreddit; (ii) an example of a network graph taken from our dataset.
 
 ## Requirements
 
