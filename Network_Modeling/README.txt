@@ -1,4 +1,4 @@
-The code in this folder takes as input the list of linguistic innovations of a community and returns the strength of the ties of the users that use them in every time bin (monh or week) .
+The code in this folder takes as input the list of linguistic innovations of a community and returns the strength of the ties of the users that use them in every time bin (month or week).
 It is also possible to compute centrality values (degree, betweenness, closeness, eigenvector).
 
 Usage:
